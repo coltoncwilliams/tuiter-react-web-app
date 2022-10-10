@@ -3,114 +3,210 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Lab 3</title>
+  <title>Explore</title>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/f11fff6118.js"></script>
   <link href="index.css" rel="stylesheet" />
-  <link href="../styles.css" rel="stylesheet" />
 </head>
 
 <body>
-  <div class="wd-main-wrapper">
-    <input type="text" class="wd-searchbar" placeholder="Search Tuiter" />
-    <a href="explore-settings.html">
-      <img class="wd-settings-img" src="./img/gear.png">
-    </a>
 
-    <div class="wd-navigation-wrapper">
-      <div class="wd-navigation-link-div">
-        <a class="wd-navigation-link wd-highlighted-text" href="for-you.html">For you</a>
-        <div class="wd-navigation-link-underline wd-highlighted-div"></div>
-      </div>
-      <div class="wd-navigation-link-div">
-        <a class="wd-navigation-link wd-unhighlighted-text" href="trending.html">Trending</a>
-        <div class="wd-navigation-link-underline wd-unhighlighted-div"></div>
-      </div>
-      <div class="wd-navigation-link-div">
-        <a class="wd-navigation-link wd-unhighlighted-text" href="covid.html">COVID-19</a>
-        <div class="wd-navigation-link-underline wd-unhighlighted-div"></div>
-      </div>
-      <div class="wd-navigation-link-div">
-        <a class="wd-navigation-link wd-unhighlighted-text" href="news.html">News</a>
-        <div class="wd-navigation-link-underline wd-unhighlighted-div"></div>
-      </div>
-      <div class="wd-navigation-link-div">
-        <a class="wd-navigation-link wd-unhighlighted-text" href="sports.html">Sports</a>
-        <div class="wd-navigation-link-underline wd-unhighlighted-div"></div>
-      </div>
-      <div class="wd-navigation-link-div">
-        <a class="wd-navigation-link wd-unhighlighted-text" href="entertainment.html">Entertainment</a>
-        <div class="wd-navigation-link-underline wd-unhighlighted-div"></div>
-      </div>
-    </div>
+  <div class="container mt-3 mb-3">
 
-    <div class="wd-separator"></div>
-    <div class="wd-block"></div>
-    <div class="wd-separator"></div>
-
-
-    <div class="wd-post">
-      <p class="wd-grey-text wd-small">Trending in Science</p>
-      <p class="wd-white-text wd-medium">NASA confirms aliens</p>
-      <p class="wd-grey-text wd-small">55.5K Tuits</p>
-    </div>
-
-    <div class="wd-post">
-      <p class="wd-grey-text wd-small">Sports - Trending</p>
-      <p class="wd-white-text wd-medium">Joe Rogan SUXKS</p>
-      <p class="wd-grey-text wd-small">5,218 Tuits</p>
-    </div>
-
-    <div class="wd-separator"></div>
-
-    <div class="wd-post">
-      <div class="wd-post-text">
-        <div class="wd-post-headline">
-        <p class="wd-white-text wd-medium">CNN</p>
-        <p class="wd-grey-text wd-small">·</p>
-        <p class="wd-grey-text wd-small">Yesturday</p>
+    <div class="row">
+      <div class="col-xl-2 col-lg-1 col-md-2 col-sm-2 col-2  align-items-center">
+        <div class="list-group">
+          <i class="fa fa-twitter list-group-item pl-3  pr-4"></i>
+          <a href="../home.html" class="list-group-item pl-3  pr-4 list-group-item-action">
+            <i class="d-inline fa fa-home"></i>
+            <p class="d-none d-lg-none d-xl-inline"> Home</p>
+          </a>
+          <a href="explore.html" class="list-group-item pl-3  pr-4 list-group-item-action active">
+            <i class="fa fa-hashtag"></i>
+            <p class="d-none d-lg-none d-xl-inline"> Explore</p>
+          </a>
+          <a href="../notifications.html" class="list-group-item pl-3  pr-4 list-group-item-action">
+            <i class="fa fa-bell"></i>
+            <p class="d-none d-lg-none d-xl-inline"> Notifications</p>
+          </a>
+          <a href="../messages.html" class="list-group-item pl-3  pr-4 list-group-item-action">
+            <i class="fa fa-envelope"></i>
+            <p class="d-none d-lg-none d-xl-inline"> Messages</p>
+          </a>
+          <a href="../bookmarks/index.html" class="list-group-item pl-3  pr-4 list-group-item-action">
+            <i class="fa fa-bookmark"></i>
+            <p class="d-none d-lg-none d-xl-inline"> Bookmarks</p>
+          </a>
+          <a href="../lists.html" class="list-group-item pl-3  pr-4 list-group-item-action">
+            <i class="fa fa-list"></i>
+            <p class="d-none d-lg-none d-xl-inline"> Lists</p>
+          </a>
+          <a href="../profile.html" class="list-group-item pl-3  pr-4 list-group-item-action">
+            <i class="fa fa-user"></i>
+            <p class="d-none d-lg-none d-xl-inline"> Profile</p>
+          </a>
+          <a href="../more.html" class="list-group-item pl-3  pr-4 list-group-item-action">
+            <i class="fa fa-ellipsis-h"></i>
+            <p class="d-none d-lg-none d-xl-inline"> More</p>
+          </a>
         </div>
-        <p class="wd-white-text wd-medium">Demi Lovato relapses (she/her)</p>
-      </div>
-      <div class="wd-post-img-div">
-        <img class="wd-post-img" src="./img/demi.png">
-      </div>
-    </div>
 
-    <div class="wd-separator"></div>
+        <button class="btn btn-primary tweet-button mt-1 rounded-pill">Tweet</button>
+      </div>
 
-    <div class="wd-post">
-      <div class="wd-post-text">
-        <div class="wd-post-headline">
-        <p class="wd-grey-text wd-small">Entertainment</p>
-        <p class="wd-grey-text wd-small">·</p>
-        <p class="wd-grey-text wd-small">4 Days Ago</p>
+
+      <div class="col-xl-6 col-lg-7 col-md-9 col-sm-9 col-8">
+        <div class="row align-items-center">
+          <div class="input-group col">
+            <span class="input-group-prepend">
+              <div class="input-group-text  bg-transparent form-rounded"><i class="fa fa-search"></i></div>
+            </span>
+            <input class="form-control border-left-0 form-rounded d-inline" type="search" placeholder="Search Twitter">
+          </div>
+          <i class="col-auto fa fa-gear fa-2x text-primary"></i>
         </div>
-        <p class="wd-white-text wd-medium">New recreational drug discovered</p>
+
+
+        <ul class="nav nav-tabs mt-1 mb-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="for-you.html">For You</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trending.html">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sports.html">Sports</a>
+          </li>
+          <li class="nav-item d-none d-sm-none d-md-block">
+            <a class="nav-link" href="entertainment.html">Entertainment</a>
+          </li>
+        </ul>
+        <div class="thumbnail">
+          <img src="../../images/starship.webp" alt="" class="img-fluid">
+          <div class="caption">
+            <h3 class="font-weight-bold text-white">SpaceX's Starship</h3>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-group-item  d-flex justify-content-between align-items-center">
+            <small>
+              <p class="text-secondary mb-0">Web Developement</p>
+              <p class="d-inline">ReactJS</p>
+              <i class="d-inline fa fa-check-circle"></i>
+              <p class="d-inline text-secondary">- 2h</p>
+              <p>React.js is a componant based front end library that makes it very easy to build Single Page Applications or SPAs</p>
+            </small>
+            <img src="../../images/atom.png" class="img-fluid rounded list-img">
+          </div>
+
+          <div class="list-group-item d-flex justify-content-between align-items-center">
+            <small>
+              <p class="d-inline">JavaScript</p>
+              <i class="d-inline fa fa-check-circle"></i>
+              <p class="d-inline text-secondary">- 2h</p>
+              <p class="mb-0">JavaScript is programming language that can run on browsers as well as desktops</p>
+              <p class="text-secondary">123K Tweets</p>
+            </small>
+            <img src="../../images/js.webp" class="img-fluid rounded list-img">
+          </div>
+
+          <div class="list-group-item d-flex justify-content-between align-items-center">
+            <small>
+              <p class="text-secondary mb-0">Web Developement</p>
+              <p class="mb-0">jQuery</p>
+              <p class="text-secondary">123K Tweets</p>
+            </small>
+            <img src="../../images/jquery.png" class="img-fluid rounded list-img">
+          </div>
+
+          <div class="list-group-item d-flex justify-content-between align-items-center">
+            <small>
+              <p class="text-secondary mb-0">Web Developement</p>
+              <p class="d-inline">NodeJS</p>
+              <i class="d-inline fa fa-check-circle"></i>
+              <p class="d-inline text-secondary">- 2h</p>
+              <p class="text-secondary">123K Tweets</p>
+            </small>
+            <img src="../../images/node.webp" class="img-fluid rounded list-img">
+          </div>
+        </div>
       </div>
-      <div class="wd-post-img-div">
-      <img class="wd-post-img" src="./img/drug.jpg">
-    </div>
-    </div>
 
-    <div class="wd-separator"></div>
 
-    <div class="wd-post">
-      <div class="wd-post-text">
-        <p class="wd-white-text wd-medium">BBC</p>
-        <p class="wd-grey-text wd-small">2 Days Ago</p>
-        <p class="wd-white-text wd-medium">Ned's cheating allegations are true, but not with who you might think</p>
+      <div class="col-xl-4 col-lg-4 d-none d-md-none d-lg-block">
+        <div class="list-group">
+          <p class="list-group-item">Who to follow</p>
+          <div class="list-group-item d-flex justify-content-between align-items-center pb-0 pt-0">
+            <div class="d-flex justify-content-between align-items-center">
+              <img src="../../images/java.png" class="img-fluid rounded-circle follow-img">
+              <div class="ml-3 pt-1">
+                <small>
+                  <p class="d-inline">Java</p>
+                  <i class="d-inline fa fa-check-circle"></i>
+                  <p class="text-secondary">@Java</p>
+                </small>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm rounded-pill">Follow</button>
+          </div>
+          <div class="list-group-item d-flex justify-content-between align-items-center pb-0 pt-0">
+            <div class="d-flex justify-content-between align-items-center">
+              <img src="../../images/relativity.webp" class="img-fluid rounded-circle follow-img">
+              <div class="ml-3 pt-1">
+                <small>
+                  <p class="d-inline">Relativity Space</p>
+                  <i class="d-inline fa fa-check-circle"></i>
+                  <p class="text-secondary">@relativityspace</p>
+                </small>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm rounded-pill">Follow</button>
+          </div>
+          <div class="list-group-item d-flex justify-content-between align-items-center pb-0 pt-0">
+            <div class="d-flex justify-content-between align-items-center">
+              <img src="../../images/virgin.png" class="img-fluid rounded-circle follow-img">
+              <div class="ml-3 pt-1">
+                <small>
+                  <p class="d-inline">Virgin Galactic</p>
+                  <i class="d-inline fa fa-check-circle"></i>
+                  <p class="text-secondary">@virgingalactic</p>
+                </small>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm rounded-pill">Follow</button>
+          </div>
+          <div class="list-group-item d-flex justify-content-between align-items-center pb-0 pt-0">
+            <div class="d-flex justify-content-between align-items-center">
+              <img src="../../images/nasa.png" class="img-fluid rounded-circle follow-img">
+              <div class="ml-3 pt-1">
+                <small>
+                  <p class="d-inline">NASA</p>
+                  <i class="d-inline fa fa-check-circle"></i>
+                  <p class="text-secondary">@NASA</p>
+                </small>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm rounded-pill">Follow</button>
+          </div>
+          <div class="list-group-item d-flex justify-content-between align-items-center pb-0 pt-0">
+            <div class="d-flex justify-content-between align-items-center">
+              <img src="../../images/tesla.png" class="img-fluid rounded-circle follow-img">
+              <div class="ml-3 pt-1">
+                <small>
+                  <p class="d-inline">Tesla</p>
+                  <i class="d-inline fa fa-check-circle"></i>
+                  <p class="text-secondary">@Tesla</p>
+                </small>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm rounded-pill">Follow</button>
+          </div>
+        </div>
       </div>
-      <div class="wd-post-img-div">
-      <img class="wd-post-img" src="./img/ned.jpg">
-    </div>
-    </div>
-
-    <div class="wd-separator"></div>
-
-    <div class="wd-post">
-      <p class="wd-grey-text wd-small">Trending in United States</p>
-      <p class="wd-white-text wd-medium">Texas succession</p>
-      <p class="wd-grey-text wd-small">1,259 Tuits</p>
-    </div>
-  </div>
 </body>
+
+</html>
