@@ -16,7 +16,7 @@ const store = configureStore(
 
 function Tuiter() {
 var location = useLocation().pathname.split("/").pop()
-if (location === "") {
+if (location === "tuiter") {
 location = "home";
 }
  return (
@@ -29,9 +29,10 @@ location = "home";
           style={{"position": "relative"}}>
 
        <Routes>
-              <Route path="/home" element={<HomeComponent/>}/>
+              <Route path="*" element={<HomeComponent/>}/>
+              <Route path="home" element={<HomeComponent/>}/>
               <Route path="/explore" element={<ExploreComponent/>}/>
-              <Route path="/*" element={<HomeComponent/>}/>
+
        </Routes>
 
      </div>
