@@ -3,7 +3,6 @@ import Assignment6 from "./a6";
 import Assignment7 from "./a7";
 import Tuiter from "../tuiter";
 import {Routes, Route} from "react-router";
-import {BrowserRouter} from "react-router-dom";
 
 function Labs() {
  return (
