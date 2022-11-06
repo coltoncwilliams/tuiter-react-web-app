@@ -29,9 +29,9 @@ location = "home";
           style={{"position": "relative"}}>
 
        <Routes>
-              <Route index element={<HomeComponent/>}/>
-              <Route path="/home" element={<HomeComponent/>}/>
-              <Route path="/explore" element={<ExploreComponent/>}/>
+              <Route path="/tuiter/home" element={<HomeComponent/>}/>
+              <Route path="/tuiter/explore" element={<ExploreComponent/>}/>
+              <Route path="/tuiter" element={<HomeComponent/>}/>
        </Routes>
 
      </div>
