@@ -1,5 +1,4 @@
 import Labs from "./labs";
-import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
 function App() {
