@@ -27,6 +27,7 @@ const location = useLocation().pathname.split("/").pop()
           style={{"position": "relative"}}>
 
        <Routes>
+              <Route index element={<HomeComponent/>}/>
               <Route path="home" element={<HomeComponent/>}/>
               <Route path="explore" element={<ExploreComponent/>}/>
        </Routes>
