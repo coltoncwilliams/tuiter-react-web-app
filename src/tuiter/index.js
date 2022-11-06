@@ -30,9 +30,8 @@ location = "home";
 
        <Routes>
               <Route path="*" element={<HomeComponent/>}/>
-              <Route path="home" element={<HomeComponent/>}/>
+              <Route path="/home" element={<HomeComponent/>}/>
               <Route path="/explore" element={<ExploreComponent/>}/>
-
        </Routes>
 
      </div>

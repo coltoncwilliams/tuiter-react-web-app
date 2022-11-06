@@ -4,13 +4,12 @@ import {Routes, Route} from "react-router";
 
 function App() {
   return (
-    <BrowserRouter>
+
    <div className="container">
        <Routes>
-           <Route path="*" element={<Labs/>}/>
+       <Route path="/*" element={<Labs/>}/>
        </Routes>
    </div>
-</BrowserRouter>
   );
 }
 export default App;
