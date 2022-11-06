@@ -13,7 +13,7 @@ function Labs() {
         element={<Assignment6/>}/>
        <Route path="/a7"
         element={<Assignment7/>}/>
-       <Route path="tuiter/*"
+       <Route path="/tuiter/*"
                element={<Tuiter/>}/>
      </Routes>
    </div>
