@@ -15,8 +15,10 @@ const store = configureStore(
   {reducer: {who: whoReducer, tuits: tuitsReducer}});
 
 function Tuiter() {
-const location = useLocation().pathname.split("/").pop()
-
+var location = useLocation().pathname.split("/").pop()
+if (location === "") {
+location = "home";
+}
  return (
  <Provider store={store}>
    <div className="row mt-2">
