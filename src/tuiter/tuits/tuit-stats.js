@@ -6,7 +6,7 @@ import { AiFillHeart } from 'react-icons/ai';
 import { BsShareFill } from 'react-icons/bs';
 import { FaThumbsDown } from 'react-icons/fa';
 import {updateTuitThunk} from "../../services/tuits-thunks";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 
 const TuitStats = ({
                     tuit = {
